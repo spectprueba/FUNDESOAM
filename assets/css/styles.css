@@ -1,0 +1,212 @@
+/* --------------------- FONTS --------------------- */
+.FuturaBoldBT{
+    font-family: FuturaBoldBT !important;
+}
+
+.Nunito-Sans-Regular{
+    font-family: Nunito-Sans-Regular !important;
+}
+
+/* ---------------------GENERAL CODE--------------------- */
+body{
+    margin: auto;
+}
+*{
+    box-sizing: border-box;
+}
+
+/* ---------------------HEADER--------------------- */
+.container-header{
+    width: 100%;
+    height: 100px;
+    max-height: 100px;
+    position: fixed;
+    overflow: hidden;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    background-color: aquamarine;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    max-height: 100px;
+    margin-left: 20%;
+    float: left;
+}
+
+.logo-header{
+    height: 80px;
+}
+
+.menu{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    float: right;
+    height: 100px;
+    max-height: 100px;
+    margin-right: 20%;
+    transition: all 500ms ease;
+}
+
+.toggle-menu{
+    float: right;
+    margin: auto 10px;
+    transition: 1s ease-in-out;
+    /* opacity: 0; */
+    width: 55px;
+    height: 55px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}.toggle-menu span{
+    
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    border-radius: 4px;
+    transition: 0.5s;
+    
+}.toggle-menu span:nth-child(1){
+    transform: translateY(-12px);
+    position: absolute;
+}.toggle-menu.active span:nth-child(1){
+    width: 25px;
+    transform: translateY(0px) rotate(45deg);
+    transition-delay: 0.125s;
+}.toggle-menu span:nth-child(2){
+    transform: translateY(12px);
+    position: absolute;
+}.toggle-menu.active span:nth-child(2){
+    width: 25px;
+    transform: translateY(0px) rotate(315deg);
+    transition-delay: 0.25s;
+}.toggle-menu span:nth-child(3){
+    position: absolute;
+}.toggle-menu.active span:nth-child(3){
+    transform: translateX(60px);
+}
+
+/* ---------------------INDEX--------------------- */
+
+.landing-page{
+    background-image: url(/assets/img/hero-01.jpg);
+    background-size: cover;
+    min-height: 80vh;
+    margin: 0;
+}
+
+.blank-section{
+    background-color: #eee7df;
+    height: 150px;
+}
+
+.experience{
+    display: flex;
+    min-height: 40vh;
+}.experience-left{
+    width: 50%;
+    background-image: url(../img/landing.jpg);
+    background-size: cover;
+}.experience-right{
+    width: 50%;
+    background-color: #45709b;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    min-height: 40vh;
+    background-color: black;
+}.services :nth-child(1){
+    color: #eee7df;
+    text-align: center;
+    align-self: center;
+}.services :nth-child(2){
+    color: #eee7df;
+    text-align: center;
+    align-self: center;
+}.services :nth-child(3){
+    color: #eee7df;
+    text-align: center;
+    align-self: center;
+}
+
+.gallery{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 30px;
+    margin: auto;
+}.gallery img{
+    width: 100%;
+    cursor: pointer;
+}
+
+/* ---------------------FOOTER--------------------- */
+.footer-container{
+    bottom: 0;
+    overflow: hidden;
+    background-color: #000000;
+    padding: 1em 1em;
+}
+
+.footer{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: aliceblue;
+}
+
+.footer-col{
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.footer-col p{
+    margin: 0 10%;
+    text-align: justify;
+}
+
+.footer-col img{
+    width: 50%;
+}
+
+.contact-us-img{
+    width: 30% !important; 
+    display: block;
+}
+
+.contact_us{
+    display: flex;
+}
+
+.contact_us li{
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: all ease 250ms;
+    border-left: 2px solid #ffffff00;
+}.contact_us a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}.contact_us li:hover{
+    background-color: rgba(255, 255, 255, 0.37);
+    transform: scale(1.02);
+    transition:ease-out 250ms;
+    border-left: 2px solid white;
+}
+/*-----------------------------Footer code-----------------------------*/

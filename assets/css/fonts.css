@@ -1,0 +1,11 @@
+/*--------------------FUTURA MD--------------------*/
+@font-face {
+    font-family:FuturaBoldBT;
+    src: url(../fonts/Futura-Md-BT-Font/FuturaBoldBT.ttf) format('truetype');
+}
+
+/*--------------------NUNITO SANS--------------------*/
+@font-face {
+    font-family:Nunito-Sans-Regular;
+    src: url(../fonts/Nunito_Sans/NunitoSans_10pt-Regular.ttf) format('truetype');
+}
