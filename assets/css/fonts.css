@@ -9,3 +9,10 @@
     font-family:Nunito-Sans-Regular;
     src: url(../fonts/Nunito_Sans/NunitoSans_10pt-Regular.ttf) format('truetype');
 }
+
+/*--------------------HELVETICA NEUE--------------------*/
+@font-face {
+    font-family:Helvetica-Neue-Light;
+    src: url(../fonts/Helvetica-Neue/HelveticaNeueLight.ttf) format('truetype');
+}
+

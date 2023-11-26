@@ -18,28 +18,47 @@
         <div class="general-container">
 
             <!---------------------------Start of the header--------------------------->
-            <div class="container-header">
+            <div class="container-header" id="container-header">
+                <div class="header">
 
-                <div class="logo-container"> 
-                    <a href="index.html"> <img src="./assets/img/identity/imagotipo.svg" class="logo-header"> </a> 
+                    
+                    <div class="logo-container"> 
+                        <a href="index.html"> <img src="./assets/img/identity/imagotipo.svg" class="logo-header"> </a> 
+                    </div>
+                    
+                    <p class="Helvetica-Neue-Light"> MENU </p>
+                    
+                    <nav class="menu Nunito-Sans-Regular">
+                        <a id="toggle-menu" class="toggle-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+            
+            <!---------------------------End of the header----------------------------->
+
+            <div class="menu-overlay-container" id="menu-overlay-container">
+
+                <div class="menu-content" id="menu-elements">
+                    <li class="menu-element"> </li>
+                            
+                    <li class="menu-element"> </li>
+                    
+                    <li class="menu-element"> </li>
+                    
+                    <li class="menu-element"> </li>
                 </div>
 
-                
-                <nav class="menu Nunito-Sans-Regular">
-                    <p>MENU</p>
-                    <a id="toggle-menu" class="toggle-menu" href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </a>
-                </nav>
-                <script src="/assets/js/menu-bars.js"></script>
             </div>
-            <!---------------------------End of the header----------------------------->
 
             <!---------------------------Start of body--------------------------->
             <div class="landing-page">
-
+                <div class="landing-page-content Helvetica-Neue-Light">
+                    BIENVENIDOS A FUNDESOAM
+                </div>
             </div>
 
             <div class="blank-section">
@@ -91,9 +110,7 @@
                 <!-- BLANK SPACE  -->
             </div>
 
-            <!------------------------------------------------------------------------->
             <!---------------------------Start of the footer--------------------------->
-            <!------------------------------------------------------------------------->
             <footer class="footer-container">
                 
                 <div class="footer">
@@ -120,16 +137,14 @@
                     <div class="footer-col">
                         <h1 class="OpenSans-Bold"> Quienes somos </h1>
                         <p class="Montserrat-Light">
-                            Fut-Reducido es un conglomerado que busca la creación y desarrollo de torneos deportivos semi profesionales donde los equipos y personas involucradas vivan la experiencia de no solo divertirse, sino desarrollar un alto nivel deportivo, en la disputa de un título.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nisi hic ab quam consectetur dolore quod quo, natus maiores error corrupti asperiores et sequi dolores facilis soluta qui! Optio, laboriosam!
                         </p>
                     </div>
                 </div>
             </footer>
-            <!------------------------------------------------------------------------->
             <!---------------------------End of the footer----------------------------->
-            <!------------------------------------------------------------------------->
-
+            <script src="/assets/js/menu-bars.js"></script>
+            <script src="./assets/js/animations.js"></script>
         </div>
-        
     </body>
 </html>
