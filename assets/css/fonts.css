@@ -4,15 +4,17 @@
     src: url(../fonts/Futura-Md-BT-Font/FuturaBoldBT.ttf) format('truetype');
 }
 
-/*--------------------NUNITO SANS--------------------*/
-@font-face {
-    font-family:Nunito-Sans-Regular;
-    src: url(../fonts/Nunito_Sans/NunitoSans_10pt-Regular.ttf) format('truetype');
-}
-
 /*--------------------HELVETICA NEUE--------------------*/
 @font-face {
     font-family:Helvetica-Neue-Light;
     src: url(../fonts/Helvetica-Neue/HelveticaNeueLight.ttf) format('truetype');
 }
-
+/*--------------------Montserrat--------------------*/
+@font-face {
+    font-family:Montserrat-Bold;
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family:Montserrat-Regular;
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf) format('truetype');
+}

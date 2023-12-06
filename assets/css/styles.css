@@ -7,12 +7,41 @@
     font-family: Helvetica-Neue-Light !important;
 }
 
+.Montserrat-Bold{
+    font-family: Montserrat-Bold !important;
+}.Montserrat-Regular{
+    font-family: Montserrat-Regular !important;
+}
+
 /* ---------------------GENERAL CODE--------------------- */
 body{
     margin: auto;
 }
 *{
     box-sizing: border-box;
+}
+
+.button{
+    display: inline-block;
+    cursor: pointer;
+    padding: 1% 3%;
+    border: 2px solid #fff;
+    transition: all 500ms ease;
+    border-radius: 3px;
+}.button a{
+    text-decoration: none !important;
+}.button:hover {
+    transform: scale(1.1);
+    transition: all 500ms ease;
+}
+
+.learn-button a{
+    color: #fff;
+}.learn-button:hover{
+    background-color: #2a4661;
+    border: 2px solid transparent;
+}.learn-button:hover a{
+    color: black;
 }
 
 /* ---------------------HEADER--------------------- */
@@ -26,6 +55,7 @@ body{
     z-index: 22;
     top: 0;
     left: 0;
+    transition: all 500ms ease;
 
 }.container-header p{
     text-transform: uppercase;
@@ -44,13 +74,13 @@ body{
     align-items: center;
     height: 100px;
     max-height: 100px;
-    margin-left: 20%;
+    margin-left: 15%;
     float: left;
 }
 
 .logo-header{
     margin-top: 20px;
-    height: 90px;
+    width: 200px;
 }
 
 .menu{
@@ -175,16 +205,24 @@ body{
     height: 150px;
 }
 
-.experience{
+.about-us{
     display: flex;
-    min-height: 80vh;
-}.experience-left{
-    width: 50%;
-    background-image: url(../img/landing.jpg);
+    min-height: 40vh;
+}.about-us-left{
+    min-width: 35%;
+    background-image: url(../img/Plant.jpg);
     background-size: cover;
-}.experience-right{
-    width: 50%;
+}.about-us-right{
     background-color: #45709b;
+    padding: 5% 10%;
+}.about-us-right h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+}.about-us-right p{
+    color: #fff;
+    line-height: 1.5;
+    font-size: 14px;
 }
 
 .services{
