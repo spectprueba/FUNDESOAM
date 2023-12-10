@@ -48,7 +48,7 @@ body{
 .container-header{
 
     width: 100%;
-    height: 120px;
+    height: 100px;
     max-height: 150px;
     position: fixed;
     overflow: hidden;
@@ -230,18 +230,58 @@ body{
     grid-template-columns: repeat(3, 1fr);
     min-height: 40vh;
     background-color: black;
-}.services :nth-child(1){
+}.services :nth-child(n){
     color: #eee7df;
+    text-decoration: none;
+    font-size: 54px;
+    width: 100%;
     text-align: center;
-    align-self: center;
-}.services :nth-child(2){
-    color: #eee7df;
-    text-align: center;
-    align-self: center;
-}.services :nth-child(3){
-    color: #eee7df;
-    text-align: center;
-    align-self: center;
+    background-color: #2a4661;
+}
+
+.allies{
+    background-image: url(../img/allies.jpeg);
+    background-size: cover;
+    height:100%;
+    transition: all ease 250ms;
+    display: flex;
+    align-items: center;
+}.allies:hover{
+    transform: scale(1.01);
+    transition: all ease 250ms;
+    cursor: pointer;
+}.allies h1{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.712);
+}
+
+.proyects{
+    background-image: url(../img/proyects.jpg);
+    background-size: cover;
+    height:100%;
+    transition: all ease 250ms;
+    display: flex;
+    align-items: center;
+}.proyects:hover{
+    transform: scale(1.01);
+    transition: all ease 250ms;
+    cursor: pointer;
+}.proyects h1{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.712);
+}
+
+.other{
+    background-image: url(../img/other.jpeg);
+    background-size: cover;
+    height:100%;
+    transition: all ease 250ms;
+    display: flex;
+    align-items: center;
+}.other:hover{
+    transform: scale(1.01);
+    transition: all ease 250ms;
+    cursor: pointer;
+}.other h1{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.712);
 }
 
 .gallery{
